@@ -1,0 +1,115 @@
+.body {
+  overflow-x: hidden;
+}
+
+
+ol.breadcrumb > li.breadcrumb-item + li.breadcrumb-item::before {
+    content: ">";
+    padding: 0 5px;
+    margin-top: 2px;
+    margin-right: 4px;
+    font-size: 0.8em;
+    color: #999;
+  }
+  
+  .packs {
+    font-size: 2.125em;
+    color: #0d4f9a;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+    font-family: Lato,Helvetica Neue,sans-serif;
+    line-height: 1.2;
+
+
+  }
+
+  .price {
+
+    font-size: 2.25em;
+    color: #2bb34d;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-family: Lato,Helvetica Neue,sans-serif;
+  }
+
+  .per-pack {
+    font-family:  Lato,Helvetica Neue,sans-serif;
+    font-size: 2.25em;
+    font-weight: 700;
+    color: #2bb34d;
+    text-align: center;
+    
+    margin-top: -30px;
+
+  }
+
+  .save {
+    color: #db421e;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:  Lato,Helvetica Neue,sans-serif;
+    margin-top: -28px;
+  }
+
+  .btn-flavour {
+    background-color: #2bb34d;
+    
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family:  Lato,Helvetica Neue,sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 20px;
+    margin-left: 28px;
+
+  }
+
+  .second-header {
+    background-color: #0d4f9a;
+    border: 2px solid #0d4f9a;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    width: 270px;
+    margin-left: -12px;
+  }
+
+  .image-container {
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.8);
+  }
+  
+  .centered-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .carousel-item .row {
+    margin: 0 -10px; /* Remove margin between images */
+  }
+  
+  .carousel-item .col-2 {
+    padding: 0; /* Add padding instead of margin to create space between items */
+  }
+  
+  .carousel-item .img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    
